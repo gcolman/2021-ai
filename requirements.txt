@@ -1,6 +1,10 @@
-Flask
-gunicorn<20.0.0; python_version < '3.5'
-gunicorn>=20.0.0; python_version >= '3.5'
-numpy
-seldon-core
+#Flask
+#gunicorn<20.0.0; python_version < '3.5'
+#gunicorn>=20.0.0; python_version >= '3.5'
+#numpy
+#seldon-core
+#jinja2<3.1.0
+Flask>=2.2.2
 jinja2<3.1.0
+numpy
+seldon-core==0.5.0.2
